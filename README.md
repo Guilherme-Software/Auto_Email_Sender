@@ -18,6 +18,21 @@ This Python script automates sending an email using the `smtplib` library and sc
   - `smtplib` for sending emails via Gmail's SMTP server.
   - `email.message` to create and configure the email.
 
+#### How to Use?
+Change 'your_gmail.com' on line 7 to your Gmail address and 'your_password' as well.
+
+On line 13, change 'title' to the title of the email that the program will send.
+
+On line 15, change 'other_person@gmail.com' to the email address of the recipient.
+
+On line 16, change 'message that you want' to the message you want to send.
+
+Remember to keep the quotes, just change the text inside.
+
+Run the code.
+
+You can change the time in line 31 if you want to adjust the interval.
+
 #### Security Considerations:
 - It's recommended to store sensitive credentials securely (e.g., using environment variables) instead of hardcoding them in the script.
 
